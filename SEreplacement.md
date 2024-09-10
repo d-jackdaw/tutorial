@@ -1,11 +1,15 @@
 ## 教程：游戏内音效替换
+
 假设你想把游戏司辰之书（book of hours）内的音效替换成otto鬼叫，该怎么做？
 
 ## 前提
+
 - 游戏为unity制作。可以通过查看游戏文件（比如`C:\Program Files (x86)\Steam\steamapps\common\Book of Hours\bh_Data`）来判断。
-- 教程写于2024年9月，理论上对 Unity 2022.3.44f1 及之前版本制作的游戏均有效。之后发布的游戏可能因为“拆包软件停止维护”等原因需要更换拆包工具。
+- 教程写于2024年9月，理论上对 Unity 2022.3.44f1 及之前版本制作的游戏均有效。之后可能因为“拆包软件停止维护”等原因需要更换拆包工具。
+- 本教程环境为windows。
   
 ## 软件准备
+
 都是免费的软件，搜名字就能搜到下载链接。
 
 ### 必备
@@ -13,8 +17,9 @@
 - UABEA：用于导入dump和保存修改后的.asset。功能和UABE完全一致，适配2022年后unity游戏。
 - AssetStudio：用于快速查看.asset内音频。对于2022年后的unity游戏会频繁报错，全部跳过就行，不耽误使用。
 ### 可选
-- AssetRipper：如果受不了AS报错可以用这个代替。无GUI，图形界面在浏览器上，操作比较麻烦。
+- AssetRipper：受不了AssetStudio报错可以用这个代替。无GUI，图形界面在浏览器上，操作比较麻烦。
 - Audacity：音频编辑软件。可以剪辑音频，给音频加效果器（比如倒放和混响）。
+
 
 ## 流程
 
@@ -42,7 +47,7 @@
     
 ![SEreplacement_4](https://github.com/user-attachments/assets/00a63398-aa3a-4d1b-a5db-f12b843be6d9)
 
-### 修改dunp
+### 修改dump
 11. 打开UABEA。选择上边栏的 File，选择 Open，打开游戏文件目录里的 `globalgamemanagers`。UABEA可以通过点击上边栏的 View 后选择 Filter 来只查看 `AudioClip`。
 12. 找到自己想修改的游戏音效文件。点击右侧的 `Export Dump`，新建一个文件夹保存。这里，我新建了一个名为 dumps 的文件夹。在弹出的 Select dump type 窗口中，选择默认的 `UABE text dump`。
 
@@ -66,8 +71,10 @@
 19. 打开UABEA。再次打开游戏文件目录里的 `globalgamemanagers`。找到自己修改过的游戏音效文件。点击右侧的 `Plugins`，在弹出的窗口点击 `Export audio file`。如果能成功导出，就是成功了。
 20. 开始游戏，享受otto鬼叫吧~
 
+
 ## 额外说明
 音频替换mod大概率只适用于当前游戏版本，更新或添加dlc后大概率用不了。
+
 
 ## 如何恢复游戏文件
 **注意！** 此方法会导致安装的其他mod一起被删除！
