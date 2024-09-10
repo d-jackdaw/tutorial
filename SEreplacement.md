@@ -1,11 +1,8 @@
 ## 教程：游戏内音效替换
-假设你想把游戏司辰之书（book of hours）内
-
-的音效替换成otto鬼叫。
-
+假设你想把游戏司辰之书（book of hours）内的音效替换成otto鬼叫，该怎么做？
 
 ## 前提
-游戏为unity制作。
+游戏为unity制作。这个可以通过查看游戏文件（比如`C:\Program Files (x86)\Steam\steamapps\common\Book of Hours\bh_Data`）来判断。
 
 ## 软件准备
 ### 必备
@@ -27,3 +24,7 @@
    这里我推荐新建一个笔记本，来逐行写下 想替换的音频文件名 和 想替换成什么otto鬼叫的名称。
 
 ![SEreplacement_1](https://github.com/user-attachments/assets/cb02fb48-c4cd-464f-a396-b87929c10d2f)
+
+6. 将otto鬼叫音频重命名为你想替换的音频文件名。比如，将 哇袄.wav 重命名成 book.drop.1.wav，这意味着将放下书籍的音效替换成哇袄。
+7. 打开unity。选择 New Project 创建新文件，选择 2D (Built-in 后面省略)，输入你的 Project name（项目名称） ，选择 Location（存放项目的文件夹）， Create Project。多等一会儿，unity很慢的啦。
+8. 
