@@ -63,8 +63,8 @@
 18. 找到我们新建的 `otto.resource` 和 `sharedassets0!.assets`，放在游戏文件目录内。将 `sharedassets0!.assets` 重命名为 `sharedassets0.assets`。
 
 ### 验证
-18. 打开UABEA。再次打开游戏文件目录里的 `globalgamemanagers`。找到自己修改过的游戏音效文件。点击右侧的 `Plugins`，在弹出的窗口点击 `Export audio file`。如果能成功导出，就是成功了。
-19. 开始游戏，享受otto鬼叫吧~
+19. 打开UABEA。再次打开游戏文件目录里的 `globalgamemanagers`。找到自己修改过的游戏音效文件。点击右侧的 `Plugins`，在弹出的窗口点击 `Export audio file`。如果能成功导出，就是成功了。
+20. 开始游戏，享受otto鬼叫吧~
 
 ## 额外说明
 音频替换mod大概率只适用于当前游戏版本，更新或添加dlc后大概率用不了。
@@ -73,3 +73,7 @@
 **注意！** 此方法会导致安装的其他mod一起被删除！
 
 steam - 库- 左边栏游戏名 右键 - 属性 - 已安装文件 - 验证游戏文件的完整性
+
+---
+
+2024-09-10 daurian jackdaw
